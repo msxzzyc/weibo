@@ -15,6 +15,7 @@
 		126018DF1EDD775800E53BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126018DE1EDD775800E53BE6 /* Assets.xcassets */; };
 		126018E21EDD775800E53BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126018E01EDD775800E53BE6 /* LaunchScreen.storyboard */; };
 		126018ED1EDD775800E53BE6 /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 126018EC1EDD775800E53BE6 /* weiboUITests.m */; };
+		126018F91EDD782F00E53BE6 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 126018F81EDD782F00E53BE6 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		126018E81EDD775800E53BE6 /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		126018EC1EDD775800E53BE6 /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		126018EE1EDD775800E53BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126018F71EDD782F00E53BE6 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		126018F81EDD782F00E53BE6 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				126018E31EDD775800E53BE6 /* Info.plist */,
 				126018DB1EDD775800E53BE6 /* weibo.xcdatamodeld */,
 				126018CF1EDD775800E53BE6 /* Supporting Files */,
+				126018F71EDD782F00E53BE6 /* Dog.h */,
+				126018F81EDD782F00E53BE6 /* Dog.m */,
 			);
 			path = weibo;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 			files = (
 				126018DD1EDD775800E53BE6 /* weibo.xcdatamodeld in Sources */,
 				126018D71EDD775800E53BE6 /* ViewController.m in Sources */,
+				126018F91EDD782F00E53BE6 /* Dog.m in Sources */,
 				126018D41EDD775800E53BE6 /* AppDelegate.m in Sources */,
 				126018D11EDD775800E53BE6 /* main.m in Sources */,
 			);
